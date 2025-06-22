@@ -3,7 +3,7 @@ import { cocktailLists, mockTailLists } from '../constants'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import cocktail_left_leaf from "../public 3/images/cocktail-left-leaf.png"
-import cocktail_right_leaf from "../public 3/images/cocktail-right-leaf.png.png"
+import cocktail_right_leaf from "../public 3/images/cocktail-right-leaf.png"
 const Cocktails = () => {
      useGSAP(()=>{
         const parallaxTimeline = gsap.timeline({

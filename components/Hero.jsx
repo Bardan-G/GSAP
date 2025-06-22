@@ -5,7 +5,7 @@ import { use } from 'react'
 import { SplitText } from 'gsap/all'
 import { useMediaQuery } from 'react-responsive'
 import hero_left_leaf from "../public 3/images/hero-left-leaf.png"
-import hero_right_leaf from "../public 3/images/hero-right-leaf.png.png"
+import hero_right_leaf from "../public 3/images/hero-right-leaf.png"
 import outputmp4 from '../public 3/videos/output.mp4'
 const Hero = () => {
     const videoRef = useRef();
@@ -40,7 +40,7 @@ const Hero = () => {
         })
 
         .to('.right-leaf',{y:200},0)
-        .to('.leaft-leaf',{y:-200},0)
+        .to('.left-leaf',{y:-200},0)
 
         const startValue = isMobile ? 'top 50%':'center 60%';
         const endValue = isMobile ? '120% top':'bottom top';

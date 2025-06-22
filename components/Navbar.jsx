@@ -5,6 +5,7 @@ import { useGSAP } from '@gsap/react'
 import Logo from '../public 3/images/logo.png'
 
 
+
 const Navbar = () => {
     useGSAP(()=>{
         const navTween = gsap.timeline({
