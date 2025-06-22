@@ -4,6 +4,9 @@ import { useGSAP } from '@gsap/react'
 import { use } from 'react'
 import { SplitText } from 'gsap/all'
 import { useMediaQuery } from 'react-responsive'
+import hero_left_leaf from "../public 3/images/hero-left-leaf.png"
+import hero_right_leaf from "../public 3/images/hero-right-leaf.png.png"
+import outputmp4 from '../public 3/videos/output.mp4'
 const Hero = () => {
     const videoRef = useRef();
     const isMobile = useMediaQuery({maxWidth:767})
@@ -63,8 +66,8 @@ const Hero = () => {
     <>
     <section id='hero' className='noisy'>
         <h1 className='title'>MOJITO </h1>
-        <img src="../public 3/images/hero-left-leaf.png" alt="left-leaf" className='left-leaf' />
-        <img src="../public 3/images/hero-right-leaf.png" alt="right-leaf" className='right-leaf' />
+        <img src={hero_left_leaf} alt="left-leaf" className='left-leaf' />
+        <img src={hero_right_leaf} alt="right-leaf" className='right-leaf' />
 
         <div className="body">
             <div className="content">
@@ -89,7 +92,7 @@ const Hero = () => {
         muted
         playsInline
         preload='auto'
-        src='../public 3/videos/output.mp4'
+        src={outputmp4}
         />
     </div>
     </>

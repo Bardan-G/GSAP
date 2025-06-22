@@ -2,6 +2,8 @@ import React from 'react'
 import { cocktailLists, mockTailLists } from '../constants'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
+import cocktail_left_leaf from "../public 3/images/cocktail-left-leaf.png"
+import cocktail_right_leaf from "../public 3/images/cocktail-right-leaf.png.png"
 const Cocktails = () => {
      useGSAP(()=>{
         const parallaxTimeline = gsap.timeline({
@@ -22,8 +24,8 @@ const Cocktails = () => {
     })
   return ( 
    <section id='cocktails' className='noisy'>
-    <img src="../public 3/images/cocktail-left-leaf.png" alt='l-leaf' id="c-left-leaf" />
-    <img src="../public 3/images/cocktail-right-leaf.png" alt='r-leaf' id="c-right-leaf" />
+    <img src={cocktail_left_leaf} alt='l-leaf' id="c-left-leaf" />
+    <img src={cocktail_right_leaf} alt='r-leaf' id="c-right-leaf" />
 
     <div className="list">
         <div className="popular">
