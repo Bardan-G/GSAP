@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: "Modern Negra";
-    src: url("/fonts/Modern Negra Demo.ttf") format("truetype");
+    src: url("/fonts/ModernNegraDemo.ttf") format("truetype");
 }
 
 @theme {
@@ -54,7 +54,7 @@ body {
 }
 
 @utility masked-img {
-    mask-image: url("public 3/images/mask-img.png");
+    mask-image: url("/images/mask-img.png");
     mask-repeat: no-repeat;
     mask-position: center;
     mask-size: 50%;

@@ -1,11 +1,11 @@
 'use client';
 import React, { useRef, useState } from 'react'
-import slider_left_leaf from '../public 3/images/slider-left-leaf.png'
-import slider_right_leaf from '../public 3/images/slider-right-leaf.png'
+import slider_left_leaf from '../public/images/slider-left-leaf.png'
+import slider_right_leaf from '../public/images/slider-right-leaf.png'
 import Cocktails from './Cocktails'
 import { allCocktails, cocktailLists } from '../constants'
-import left_arrow from '../public 3/images/left-arrow.png'
-import right_arrow from '../public 3/images/right-arrow.png'
+import left_arrow from '../public/images/left-arrow.png'
+import right_arrow from '../public/images/right-arrow.png'
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 

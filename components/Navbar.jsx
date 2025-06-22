@@ -2,7 +2,7 @@ import React from 'react'
 import { navLinks } from '../constants'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
-import Logo from '../public 3/images/logo.png'
+import Logo from '../public/images/logo.png'
 
 
 

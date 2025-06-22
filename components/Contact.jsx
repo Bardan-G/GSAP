@@ -1,6 +1,6 @@
 import React from 'react'
-import footer_right_leaf from '../public 3/images/footer-right-leaf.png'
-import footer_left_leaf from '../public 3/images/footer-left-leaf.png'
+import footer_right_leaf from '../public/images/footer-right-leaf.png'
+import footer_left_leaf from '../public/images/footer-left-leaf.png'
 import { openingHours, socials } from '../constants'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
